@@ -1,0 +1,182 @@
+ *{
+	margin: 0;
+	padding: 0;
+  
+}
+
+
+	
+
+	.smenu {
+		display: flex;
+	    list-style: none;
+		flex-flow: row wrap;
+		align-items: center;
+		justify-content: space-around;
+		font-size: 0.8em;
+
+
+
+	}
+
+	.smenu li{
+		position: relative;
+		top: 1em;
+		font-style: none; 
+	}
+	.smenu a{
+		color: black;
+	}
+	.nav{
+		position: relative;
+		background-color: #4b00ff54;
+		width: 80%;
+		height: 50px;
+		margin: auto;
+		border-radius: 1.2rem;
+          
+	}
+	.logo{
+		position: relative;
+		left: 35%;
+		top: 0px;
+
+
+	}
+	.menu{
+		display: none;
+
+	}
+
+
+	.fotos{
+		
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: space-around;
+		align-content: center;
+		align-items: space-around;
+		width: 80%;
+		margin: auto;
+		padding: 20px;
+	}
+	.fotos img{
+		position: relative;
+		top: .2em;
+		width: 80%;
+		margin: 20px;
+		background-size: cover;
+		object-fit: contain;
+		
+
+	}
+	.texto p{
+		position: relative;
+		top: 50px;
+		font-size: 1.6rem;
+		width: 80%;
+		margin: auto;
+
+	}
+
+	#footer{
+
+               
+            position: relative;
+ 			padding: 1rem;
+            top: 145px;
+ 			background-color: black;
+ 			color: white;
+ 			
+
+           }
+
+.redes{
+		display: flex;
+		align-items: center;
+		align-content: flex-start;
+		list-style: none;
+	  }
+	  @media all and (min-width: 768px){
+    .menu{
+
+	
+	    display: flex;
+	    list-style: none;
+		flex-flow: row wrap;
+		align-items: center;
+		justify-content: space-around;
+		font-size: 1.4em;
+
+       }
+
+   .menu li{
+	position: relative;
+	top: 1em;
+	
+
+}
+.menu a{
+	
+	color: black;
+}
+.logo{
+	position:relative;
+	top: 10px;
+	left:0px;
+	height: 120px;
+
+}
+
+.nav{
+	background-color: gray;
+	border-radius: 1.2rem;
+	width: 80%;
+	margin: auto;
+}
+.smenu{
+	display: none;
+}
+.fotos{
+		
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+		width: 80%;
+		margin: auto;
+	}
+	.fotos  img{
+		position: relative;
+		top: 5em;
+		width: 30%;
+		margin: 0;
+		background-size: cover;
+		object-fit: contain;
+	}
+	.texto p{
+		position: relative;
+		top: 125px;
+		font-size: 1.6rem;
+
+	}
+
+#footer{
+	  display: flex;
+	   background-color: black;
+	   height: 8em;
+	   top:145px;
+	   position: relative;
+	   justify-content: center;
+}
+	   
+	/*fin de GRIDS*/
+
+.red{
+		display: flex;
+		align-items: center;
+		align-content: flex-start;
+		list-style: none;
+		position: relative;
+		top: -10px;
+	  }
+}

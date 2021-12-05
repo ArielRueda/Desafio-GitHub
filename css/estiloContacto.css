@@ -1,0 +1,116 @@
+     *{
+	margin: 0;
+	padding: 0;
+  
+}
+
+
+	
+
+	.smenu {
+		display: flex;
+	    list-style: none;
+		flex-flow: row wrap;
+		align-items: center;
+		justify-content: space-around;
+		font-size: 0.8em;
+
+
+
+	}
+
+	.smenu li{
+		position: relative;
+		top: 1em;
+		font-style: none; 
+	}
+	.smenu a{
+		color: black;
+	}
+	.nav{
+		position: relative;
+		background-color: #4b00ff54;
+		width: 80%;
+		height: 50px;
+		margin: auto;
+		border-radius: 1.2rem;
+          
+	}
+	.logo{
+		position: relative;
+		left: 35%;
+		top: 0px;
+
+	}
+	.menu{
+		display: none;
+
+	}
+
+
+	.contacto{
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+		position: relative;
+		top: 20px;
+		margin: 20px;
+	}
+
+	#footer{
+
+
+ 			padding: 1rem;
+ 			background-color: black;
+ 			color: white;
+
+           }
+
+.redes{
+		display: flex;
+		align-items: center;
+		align-content: flex-start;
+		list-style: none;
+	  }
+
+
+@media all and (min-width: 768px){
+    .menu{
+
+	
+	    display: flex;
+	    list-style: none;
+		flex-flow: row wrap;
+		align-items: center;
+		justify-content: space-around;
+		font-size: 1.4em;
+
+       }
+
+   .menu li{
+	position: relative;
+	top: 1em;
+	
+
+}
+.menu a{
+	
+	color: black;
+}
+.logo{
+	position:relative;
+	top: 10px;
+	left:10px;
+
+}
+
+.nav{
+	background-color: gray;
+	border-radius: 1.2rem;
+	width: 80%;
+	margin: auto;
+}
+.smenu{
+	display: none;
+}
+}
