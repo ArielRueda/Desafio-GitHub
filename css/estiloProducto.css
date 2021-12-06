@@ -144,7 +144,7 @@
         position: relative;
         top: 20px;
  		padding: 0.8rem;
- 		background-color: black;
+ 		background-image: linear-gradient(to bottom, black ,#000000b0);
  		color: white;
  
 /*fin de GRIDS*/
@@ -272,7 +272,7 @@
 
 #footer{
 	  display: flex;
-	   background-color: black;
+	  
 	   height: 8em;
 	   top:350px;
 	   position: relative;

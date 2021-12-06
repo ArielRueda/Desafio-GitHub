@@ -71,7 +71,7 @@
 
 
  			padding: 1rem;
- 			background-color: black;
+ 			background-image: linear-gradient(to bottom, black ,#000000b0);
  			color: white;
 
            }

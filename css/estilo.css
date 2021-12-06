@@ -29,7 +29,7 @@
 	}
 	.nav{
 		position: relative;
-		background-color: #4b00ff54;
+		background: linear-gradient(45deg, #474747 14%,#474747 41%,#000000 51%,#474747 65%,#474747 65%,#000000 72%,#1c1c1c 91%,#2c2c2c 96%,#2c2c2c 96%,#111111 99%,#f9f9f9 100%,#000000 100%,#2c2c2c 100%,#2b2b2b 100%,#2b2b2b 100%,#2c2c2c 100%,#000000 101%);
 		width: 80%;
 		height: 50px;
 		margin: auto;
@@ -110,7 +110,7 @@
 
  		grid-area: footer;
  		padding: 0.8rem;
- 		background-color: black;
+ 		background-image: linear-gradient(to bottom, black ,#000000b0);
  		color: white;
  
 /*fin de GRIDS*/
@@ -223,7 +223,7 @@
 
 .footer{
 	   grid-area: footer;
-	   background-color: black;
+	  
 	   height: 8em
 
 	   
