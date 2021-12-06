@@ -6,11 +6,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/estilo.css">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap">
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body>
      <div class="header">
         <!--Inicio de la barra de navegacion -->
-     	<div><img class="logo" src="imagenes/logo2.png" alt="logo"></div>
+     	<div class="animate__animated animate__fadeInRightBig"><img class="logo " src="imagenes/logo2.png" alt="logo"></div>
      	<div class="nav">
 
                <!-- inicio de la barra de Navegacion Mobile-->
@@ -19,6 +23,8 @@
                     <li><a href="producto.html">Productos</a></li>		
 					 <li><a href="sobreNosotros.html">Sobre Nosotros</a></li>
                     <li><a href="contacto.html">Contacto</a></li>
+                     <li><a href="preguntasf.html">Preguntas Frecuentes</a></li>
+
 
                     <!--fin barra de navegacion Mobile-->
 
@@ -28,7 +34,9 @@
      						 <li><a href="index.html">Home</a></li>
      						 <li><a href="producto.html">Productos</a></li>
      						 <li><a href="sobreNosotros.html">Sobre Nosotros</a></li>
-     						  <li><a href="contacto.html">Contacto</a></li>     						 
+     						  <li><a href="contacto.html">Contacto</a></li> 
+                               <li><a href="preguntasf.html">Preguntas Frecuentes</a></li>
+    						 
      		    </ul>
 
      	</div>
@@ -37,7 +45,7 @@
 
      	<div class="grid-contenedor"><!-- inicio de GRIDS-->
      		
-         		<div class="foto">. </div>
+         		<div class="foto  wow  animate__fadeInTopLeft">. </div>
 
      			<div class="articulo"> 
 
@@ -81,6 +89,9 @@
      	
      </div>
 
-    
+<script src="js/wow.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 </body>
 </html>
