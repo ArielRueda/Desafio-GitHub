@@ -243,13 +243,7 @@
 		
 
 }
-.diseño p{
 
-	position: absolute;
-	
-	color: black;
-
-}
 
 
 .programacion{
@@ -262,13 +256,7 @@
 
 
 }
-.programacion p{
-position: absolute;	
 
-font-size: 1.5rem;
-color: black;
-text-align: start;
-}
 
 
 .marketing{
@@ -279,14 +267,6 @@ text-align: start;
 		background-size: cover;
 		background-position: center;
 		height: 26em;
-
-}
-.marketing p{
-
-position: absolute;
-font-size: 1.5rem;
-color: black;
-
 
 }
 
@@ -328,7 +308,9 @@ color: black;
 }
 
 .texto p{
+	position: absolute;
 	color: white;
+	font-size: 2.5rem;
 }
 
 
