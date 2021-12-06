@@ -29,7 +29,7 @@
 	}
 	.nav{
 		position: relative;
-		background-color: #4b00ff54;
+		background: linear-gradient(45deg, rgba(238,238,238,1) 6%,rgba(238,238,238,1) 25%,rgba(238,238,238,1) 33%,rgba(99,185,242,1) 65%,rgba(13,127,168,1) 86%);
 		width: 80%;
 		height: 50px;
 		margin: auto;
@@ -199,7 +199,7 @@
       }
 
 .nav{
-	    background-color: gray;
+	    
 		border-radius: 1.2rem;
 		width: 80%;
 		margin: auto;

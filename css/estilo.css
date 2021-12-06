@@ -29,7 +29,7 @@
 	}
 	.nav{
 		position: relative;
-		background: linear-gradient(45deg, #474747 14%,#474747 41%,#000000 51%,#474747 65%,#474747 65%,#000000 72%,#1c1c1c 91%,#2c2c2c 96%,#2c2c2c 96%,#111111 99%,#f9f9f9 100%,#000000 100%,#2c2c2c 100%,#2b2b2b 100%,#2b2b2b 100%,#2c2c2c 100%,#000000 101%);
+		background: linear-gradient(45deg, rgba(238,238,238,1) 6%,rgba(238,238,238,1) 25%,rgba(238,238,238,1) 33%,rgba(99,185,242,1) 65%,rgba(13,127,168,1) 86%);
 		width: 80%;
 		height: 50px;
 		margin: auto;
@@ -77,6 +77,10 @@
     background-position: center;
     height: 29em;
     border-radius: 1.2rem;
+     border-color: black;
+    border-style: solid;
+    box-shadow: 2px 4px 15px 0 black;
+
 
 }
 
